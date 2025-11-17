@@ -1,0 +1,20 @@
+{
+  "name": "@huangc28/react-router-image",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Minimal image loader + memory cache for React Router 7 compatible with Node 22, derived from remix-image.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "exports": {
+    ".": "./build/src/index.js",
+    "./server": "./build/src/server.js"
+  },
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json"
+  },
+  "dependencies": {
+    "lru-cache": "^7.14.0",
+    "mime-tree": "^0.1.4",
+    "query-string": "^7.1.3"
+  }
+}

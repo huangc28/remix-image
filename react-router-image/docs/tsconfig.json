@@ -1,0 +1,8 @@
+{
+  // This file is not used in compilation. It is here just for a nice editor experience.
+  // The original fork extended "@tsconfig/docusaurus/tsconfig.json", which is not
+  // installed in this workspace and causes tooling errors. Keep this local and simple.
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}
