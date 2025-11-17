@@ -1,5 +1,5 @@
 {
-  "name": "@huangc28/react-router-image",
+  "name": "react-router-image",
   "private": true,
   "version": "0.0.1",
   "description": "Minimal image loader + memory cache for React Router 7 compatible with Node 22, derived from remix-image.",
